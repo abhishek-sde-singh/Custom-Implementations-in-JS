@@ -59,3 +59,5 @@ console.log(obj.fn); // singh
 greet.customCall(obj, "hello there", "noida"); // Abhishek hello there noida
 console.log(obj.fn); // undefined lost as we made a dummy property of same name
 // * after using symbols the above one will log `singh`
+let x = 10;
+// x.call(obj, "hey i am ", "from your code"); // TypeError: x.call is not a function
